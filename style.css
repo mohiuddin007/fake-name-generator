@@ -1,4 +1,11 @@
-#fImage{
-    /* border: 1px solid teal; */
-    /* border-radius: 50%; */
+body{
+    background: linear-gradient(120deg, darkgray, tomato);
+    color: #ffffff;
+}
+#fImage{ 
+    border: 1px solid teal; 
+     border-radius: 50%;
+}
+.alignment{
+    margin: 80px;
 }
