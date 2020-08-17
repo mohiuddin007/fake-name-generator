@@ -29,7 +29,7 @@ function details(data) {
         document.getElementById('gender').innerText = gender;
        
         const birthDate = data.results[0].dob.date;
-        document.getElementById('birth').innerText = birthDate;
+        document.getElementById('birth').innerText = birthDate.slice(0, 10);
 
         const state = data.results[0].location.state;
         document.getElementById('state').innerText = state;
