@@ -6,10 +6,7 @@ function randomNamePicker() {
     fetch('https://randomuser.me/api/')
     .then(res => res.json())
     .then(data => {
-        // console.log(data);
         details(data);
-        
-        
     })
    }
    randomNamePicker()
